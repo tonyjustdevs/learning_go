@@ -1,0 +1,17 @@
+# Ignore Go binaries and executables
+*.exe      # Windows executables
+*.out      # Executable binaries
+*.o        # Object files
+*.a        # Archive files
+*.so       # Shared object files
+
+# Go bin directory
+bin/
+
+# Ignore Go binaries installed by 'go install' (specific to your local setup)
+$HOME/go/bin/
+$GOPATH/bin/
+
+# Mine
+tony_files
+.env
